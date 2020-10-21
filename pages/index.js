@@ -1,7 +1,11 @@
+import { Page, TextStyle } from '@shopify/polaris';
+
 const Index = () => (
-    <div>
+  <Page>
+    <TextStyle variation='positive'>
       <h1>Hello world!</h1>
-    </div>
-  );
-  
-  export default Index;
+    </TextStyle>
+  </Page>
+);
+
+export default Index;
